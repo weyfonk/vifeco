@@ -1,5 +1,5 @@
 apply plugin: 'izpack'
-if (macosx) apply plugin: 'com.github.cr0.macappbundle'
+if (macosx) apply plugin: 'edu.sc.seis.macAppBundle'
 
 dependencies {
     izpack 'org.codehaus.izpack:izpack-standalone-compiler:4.3.5'
